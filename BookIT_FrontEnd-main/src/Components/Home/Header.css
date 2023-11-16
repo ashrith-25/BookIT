@@ -1,0 +1,26 @@
+body{
+    overflow-x:hidden;
+}
+
+.navbar{
+    margin-bottom:20px;
+    padding: 0.5%;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 20px;
+}
+
+.nav-item {
+    padding:0 18px;    
+}
+
+.nav-link {
+    font-size:1.0rem;
+}
+
+/* .nav-item :hover{
+    transform: scale(1.25);
+} */

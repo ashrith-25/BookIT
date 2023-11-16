@@ -1,0 +1,31 @@
+.chart{
+    flex:4;
+    padding: 10px;
+    /* box-shadow: 13px 17px 19px -5px rgba(46,74,117,0.71); */
+    /* box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75); */
+    box-shadow: 0px -1px 13px -3px rgba(21,22,26,1);
+}
+
+.recent-booking{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color:grey;
+    margin-left: 40%;
+    font-size: 18px;
+}
+
+#seeallbookings {
+	border-radius: 2px;
+	border: 1px solid #0173AE;
+	background-color: #0173AE;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+    margin-left: 90%;
+	padding: 5px 5px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+
+}

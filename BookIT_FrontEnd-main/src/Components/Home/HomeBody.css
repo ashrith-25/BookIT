@@ -1,0 +1,120 @@
+body{
+    overflow-x: hidden;
+    overscroll-behavior: none;
+}
+
+
+#homebodyrow{
+    background-image: url("../Images/Trumpwallpapers\ -\ Bus\ Wallpapers.jpeg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;  
+    height:100vh;
+    width:100%;
+    padding-top: 150px;
+    padding-left: 250px;
+    animation: 2.0s ease-out 0s 1 slideInFromLeft;
+}
+
+#welcome{
+    padding-top: 60px;
+    font-size: 45px;
+}
+
+
+.sliding-text{
+    animation: 3.0s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.homebuttons{
+    margin: 5% 3% 5% 0;
+    background-color: #0173AE;
+    color: black;
+    border: 2px solid #0173AE;
+}
+
+/* .homebuttons:hover{
+    transform: scale(1.25);
+} */
+
+.title-image{
+    width:100%;
+    transform:rotate(10deg);
+}
+
+
+#bookhere{
+    text-align: center;
+    padding:7% 7% 0 0;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    padding-left: 100px;
+}
+
+.tickets{
+    padding-top:100px;
+    text-align:center;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    width:100%;
+}
+
+#booking{
+    text-align:center;
+}
+
+.book-icon{
+    padding-bottom: 40px;
+}
+.book-icon:hover{
+    color: #0173AE;
+    /* transform:scale(1.5); */
+}
+
+
+#features{
+    padding:7% 15%;
+}
+
+.featuresdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#whybookit{
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.5;
+}
+
+#easytouse,#lowprices,#goodservice{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph{
+    color: #8f8f8f;
+}
+
+.feature-box{
+    text-align:center;
+    padding-top: 100px;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+
+.fa-solid{
+    color:black;
+}
+.icon:hover{
+    color:#0173AE;
+}

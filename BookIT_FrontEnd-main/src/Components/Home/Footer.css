@@ -1,0 +1,28 @@
+#footer {
+  background-color: #1C2331;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.foot {
+  text-align: center;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.footermaindiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.public-icon {
+  margin: 20px 10px;
+}
+
+.copyright{
+  margin-bottom: 0%;
+}
+
+.icon{
+  text-align: center;
+}

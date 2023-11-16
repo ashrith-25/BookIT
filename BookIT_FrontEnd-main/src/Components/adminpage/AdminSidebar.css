@@ -1,0 +1,97 @@
+.AdminSidebar{
+    flex:1;
+    border-right: 0.5px solid white;
+    min-height: 100vh;
+    background-color:#0173AE;
+}
+
+.top{
+    
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.Adminlogo{
+    font-size: 40px;
+    font-weight: bold;
+    color:whitesmoke;
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+
+.hr{
+    height:0;
+    border: 3px solid white;
+}
+
+.center{
+    padding-left: 10px;
+    
+}
+
+.centerlist{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.admintitle{
+    font-size:10px;
+    font-weight:bold;
+    color:black;
+    margin-top:15px;
+    margin-top:5px;
+}
+
+.sidebarlist{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.sidebarlist:hover ,.active-btn{
+    background-color:white;
+    border-radius: 15px;
+}
+
+
+.Adminicon{
+    font-size:180px;
+    color:black;
+}
+
+.Adminspan{
+    font-size:13px;
+    font-weight:600;
+    color:black;
+    margin-left:10px;
+}
+
+.bottom{
+    display:flex;
+    align-items:center;
+    margin:10px;
+}
+
+.colorOption{
+    width:20px;
+    height:20px;
+    border-radius: 5px;
+    border:1px solid #7451f8;
+    cursor:pointer;
+    margin: 5px;
+}
+
+.colorOption:nth-child(1){
+    background-color:whitesmoke;
+}
+.colorOption:nth-child(2){
+    background-color:#333;
+}
+

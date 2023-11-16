@@ -1,0 +1,35 @@
+/* .example{
+    margin: top 100px;
+} */
+
+.updatesearchdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.updatelabels{
+    font-size: 20px;
+}
+
+.updateinputs{
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.updatesearchbtn{
+    border: 2px solid orange;
+    border-radius: 10px;
+    /* padding: 7px; */
+    font-size: 10px;
+    background-color: orange;
+}
+
+.updatesearchbtn:hover{
+    background-color: green;
+    border: 2px solid green;
+}
+
